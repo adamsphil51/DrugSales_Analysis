@@ -1,4 +1,4 @@
--- =====================================================
+
 -- Project: DrugSales_CustomerBehavior
 -- Purpose: Track drug sales, customer behavior, and campaign performance
 -- =====================================================
@@ -18,7 +18,7 @@ INSERT INTO Customers (CustomerID, CustomerName, City, CustomerType) VALUES
 (4, 'Customer 4', 'Nakuru', 'Pharmacy'),
 (5, 'Customer 5', 'Eldoret', 'Hospital');
 
--- 2. Create Drugs table (realistic drug names)
+-- 2. Create Drugs table
 CREATE TABLE Drugs (
     DrugID INT PRIMARY KEY,
     DrugName VARCHAR(100),
@@ -31,7 +31,7 @@ INSERT INTO Drugs (DrugID, DrugName, BatchNumber, Supplier) VALUES
 (2, 'Amoxicillin 250mg', 'A456', 'Supplier Y'),
 (3, 'Ibuprofen 400mg', 'I789', 'Supplier Z');
 
--- 3. Create Campaigns table (anonymized campaigns)
+-- 3. Create Campaigns Tables
 CREATE TABLE Campaigns (
     CampaignID INT PRIMARY KEY,
     CampaignName VARCHAR(100),
